@@ -1,16 +1,16 @@
 --- !omap 
 - out_manifest: |
-    1da2e88c32e168cadc976053b82bba7170e010b7d0d79aaded2f6dfc561485ee  bin/32/dogecoin-cli
-    4dfd00a34d6e310b9c2c1e02c67ff4d3b669d2a9b5be2390ede2344f0144583e  bin/32/dogecoin-qt
-    8a2e6d67115ea4456fe825d0bcf488687427c043ef16b5cf27fe64e9758cccf8  bin/32/dogecoind
-    a72fb571afd5f6046f4698463961608c736915fc0d4f4a5d45f844726f4e0689  bin/32/test_dogecoin
-    b45da48cd978a9b505ae5324b364e093e8aa4d6d9ef4d4a400a71c1fb6b0c5ff  bin/32/test_dogecoin-qt
-    e103e79428ab75e9ca0eab72f807fcda9482c4096ab6b859fc90f2904a289ef6  bin/64/dogecoin-cli
-    ff86a2e6475b6dd39b8adc79d5487f77b373c453b98c1f785fa5530db184c898  bin/64/dogecoin-qt
-    84cfa42e3f9f40d0a9d791be8ddbbf9e9965b139af05f9619aea733551127367  bin/64/dogecoind
-    4311cc7ef4b5ef667ce7883137f870ece594097b94e9ff17c473d522a35e9900  bin/64/test_dogecoin
-    eb5cfc07b0858707e258c253d2704f76a089d3e8b38dca0efcbf5339c6a1d5c4  bin/64/test_dogecoin-qt
-    05418b005ba7e6233620d935f463de6fad1e31a736afe31a24272e6537a0bea5  src/dogecoin-1.7.2.tar.gz
+    5b2e3cdce64c035ff5d8f06f91e8bc4a255918a1fd7ee1a92721c41131cb19a6  bin/32/dogecoin-cli
+    2eded1c07c34b8d0543aa37f678d3e682062d96fc7be6fdc197a501e203bc585  bin/32/dogecoin-qt
+    3e6d96cb718acd4c168955aa630b37ed3379afdfb7839b58675bcfc9d2d7be1d  bin/32/dogecoind
+    79564dacf5279846c41af2cc23a73f7781587b7787c2db742278d20f5d92cb75  bin/32/test_dogecoin
+    14882879f9d9df69e292ba4e2448ea77fd0cbf4e9b80c81d488e196938b9193b  bin/32/test_dogecoin-qt
+    8ee805614cac45ea4bca9d9c750bc87c5c9dc8d4adc70ba985feb53be3732161  bin/64/dogecoin-cli
+    a2c069c5c6ce585e4e83ed6960484f88d50076934314fc82c296b676517e68ec  bin/64/dogecoin-qt
+    52784e0ef786c847c0780daee22897f260693424208f60cdd709c9d07cae2f5a  bin/64/dogecoind
+    edd259cbbf425efd1a94f4873996261d4d6a094ede56b85f6a5d9c76d9538381  bin/64/test_dogecoin
+    53757b5dc086cf4ccca31a5273f7941b8a1efce6f4fdc2fa1c40e9b8cd89ab5c  bin/64/test_dogecoin-qt
+    4542d5320be1acc137c88876433105b4ca29a4043806759a11e69d0cf94891eb  src/dogecoin-1.7.2.tar.gz
 
 - in_manifest: |-
     4fe3ae642e07ddcd175059858ae36eef78953a61d1f7a0ddcb14419d02c59f86  dogecoin-desc.yml
@@ -20,7 +20,7 @@
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
     57e57dbdadc818cd270e7e00500a5e1085b3bcbdef69a885f0fb7573a8d987e1  qt-linux32-4.6.4-gitian-r1.tar.gz
     60eb4b9c5779580b7d66529efa5b2836ba1a70edde2a0f3f696d647906a826be  qt-linux64-4.6.4-gitian-r1.tar.gz
-    git:90023110c5bf48710bd28d55562163a5d8dcb159 dogecoin
+    git:672f04806e9138b9eebed4bdc48374568ef3b17f dogecoin
 - base_manifests: !omap 
     - precise-i386: |
         edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
@@ -61,7 +61,7 @@
         caf426aaf3e830064e3fdf96a221ba13be32b091e817205612514c92ec516ac9  eject_2.1.5+deb1+cvs20081104-9_i386.deb
         50aca43149765c328d47fd628a77f14e41c72121ac3a9b1d92b5d342a84f5fb1  fakeroot_1.18.2-1_i386.deb
         134deb53aa0b5fa6938b64a55a49fb40eed04d876cf55aa53160b561238de870  faketime_0.8-1_i386.deb
-        debb085c22a839aec8c3967293a2c563653eca02000c77b046d5c5b58c82f034  file_5.09-2ubuntu0.3_i386.deb
+        acb318c554b08d9aa7b19f4d17060803b19ff0bc7bfe5fb6eb7456e88d7bed6f  file_5.09-2ubuntu0.4_i386.deb
         1126594ee4ac7d7b096a881870dfcdfeac17f5ca7fd228980e654663546e99d8  findutils_4.4.2-4ubuntu1_i386.deb
         71dafdf536a66f0a493a0f62dd07a7d5418b08f79572264f6f44b5596d53585d  fontconfig_2.8.0-3ubuntu9.1_i386.deb
         0fe2deea70b004340d6be44ce4d3f9cb4505bec35830d7fd2744f59e718f0ee6  fontconfig-config_2.8.0-3ubuntu9.1_all.deb
@@ -155,7 +155,7 @@
         ed439e2c7536758bcb1bb70e1dc414cb265d0cd27a1b71fc101a9cd07ffac25d  libice6_2%3a1.0.7-2build1_i386.deb
         b298250de7cd524526cad30af09fde81602c19f6067927e3feaaee9fffb84156  libidn11_1.23-2_i386.deb
         c86f2fedc837bb755b08ed091b57aac6648f291185ca496d5cd003dd0d541946  libjpeg8_8c-2ubuntu7_i386.deb
-        19d35ab61aee531afa1501850845c07fbe415f2c0ae2c57e55478c7fc9b2c7ed  libjpeg-turbo8_1.1.90+svn733-0ubuntu4.3_i386.deb
+        2d3faf8bc47fb7bfab7d16a0ea2fc43a6bfa70a298fe3cfbb4f285c79fa40dad  libjpeg-turbo8_1.1.90+svn733-0ubuntu4.4_i386.deb
         d9b7e41c44dde61dea51e053fccdedcb266c298d238905af9b1e50916983a7a7  libk5crypto3_1.10+dfsg~beta1-2ubuntu0.3_i386.deb
         4e3ed5bc79931367fe780f8ce13b8bbbc5ca086687555d35e8a7a2049344b83a  libkeyutils1_1.5.2-2_i386.deb
         97f0dc37c8eceefb963ce4299a8fe41326ca5b43a2bc75e8cfc756e64441ed40  libklibc_1.5.25-1ubuntu2_i386.deb
@@ -168,7 +168,7 @@
         bd6be13083dbcf95d656154bbb2708f7284af0c837e225bd154349f4e53c20b0  liblockfile1_1.09-3ubuntu0.1_i386.deb
         221a8add033f90adcb3e49cee428ece4d6cc943353420716c48d0c8c88ee0ed4  liblockfile-bin_1.09-3ubuntu0.1_i386.deb
         28d9b25af30ae27047979f97c3072cfe7c0c80ee6f05b983813b21d90a597dac  liblzma5_5.1.1alpha+20110809-3_i386.deb
-        eac6053951c4f0006183f2599048a52eda06958aae03b8bba81daff39179b052  libmagic1_5.09-2ubuntu0.3_i386.deb
+        a9d56f2084ffae396a2412efbfe0000a96a5039f058b1af5d1307b2f32b7cfde  libmagic1_5.09-2ubuntu0.4_i386.deb
         6029ab8e016964047c0c373086bdaa3ff869c70c5899d61ba98cda5370cf4ceb  libmng1_1.0.10-3_i386.deb
         b720e4ccd49228a2890f785bc3bcd4061321a63aa27d90462a539db349b72405  libmount1_2.20.1-1ubuntu3.1_i386.deb
         2a3495e067c81eca2e7498f528f14f72d4f33f2da5b749c40f28a6a8f3230023  libmpc2_0.9-4_i386.deb
@@ -325,7 +325,7 @@
         353676f30087f518cb6fc531db5cb54505dc8d84aa5e896a0453770b52d25aea  util-linux_2.20.1-1ubuntu3.1_i386.deb
         608dfb97ddd6005258246d548f2076d6659fae8c636cfab432f1287c0224f05f  vim-common_2%3a7.3.429-2ubuntu2.1_i386.deb
         b96c6c3db7aeb752d98c113552285a2dcdf87d2500d15819dea2d31b0365a35c  vim-tiny_2%3a7.3.429-2ubuntu2.1_i386.deb
-        ec384a0821e80b00dbb984f41cde857378f1792f44779d8d2f883aeb087c4f70  wget_1.13.4-2ubuntu1_i386.deb
+        01105d9fcdb0d012cbdc1ba8077a32103e6e7ce7125b6bfcc93b379f5e068c50  wget_1.13.4-2ubuntu1.1_i386.deb
         e72bd8f9718c1bd528179dcc9a5e649a7280a6ffda0ff44387471ce1d891aa6f  whiptail_0.52.11-2ubuntu10_i386.deb
         bc0c78165d91e64b5b6441d94a7e49b20f8c807107a4f01af39c0fa826482aa5  wireless-regdb_2011.04.28-1ubuntu3_all.deb
         28b9c58322a101aab5b513b3329be96112a5ca0ad53b8cffffb77334f564958d  x11-common_1%3a7.6+12ubuntu2_all.deb
@@ -374,7 +374,7 @@
         fc1a1c7c942536c34c1e2489c9cc4e7f988eb41d04c0cee955521d2b4bbbad6c  eject_2.1.5+deb1+cvs20081104-9_amd64.deb
         da223309ad4f25e18099e2bfe9d38801d7e351d7a5dd740842fc9e84d78c328b  fakeroot_1.18.2-1_amd64.deb
         388149060bb0fc67bf49f7e17cec1319c8fa1faf7dc850ca678b10b27b67cdb0  faketime_0.8-1_amd64.deb
-        970a830b04f5e86321cece7628ec37a44f75b14efaf495797f392c5277ad2170  file_5.09-2ubuntu0.3_amd64.deb
+        1c76dac044b7c8ac38d2bfa78405e47d5b51ae6ff8e9789b6a5ba7685a0a8cfe  file_5.09-2ubuntu0.4_amd64.deb
         0489d0056ac55d8dd67671d13acc268e11287d6bbd1009de9e7aa78a8ab981a6  findutils_4.4.2-4ubuntu1_amd64.deb
         26bdffe0cba910f1c182b71e8266244ee9244482ad484e207a0bcec20a3ca007  fontconfig_2.8.0-3ubuntu9.1_amd64.deb
         0fe2deea70b004340d6be44ce4d3f9cb4505bec35830d7fd2744f59e718f0ee6  fontconfig-config_2.8.0-3ubuntu9.1_all.deb
@@ -468,7 +468,7 @@
         8d8c574e76edb1b72001586fbce9e758505dfc365c7e1a971590aca4e09042ad  libice6_2%3a1.0.7-2build1_amd64.deb
         6786f612eea95bdaff29166ee1296ee80270058cd6059bd7da6aa98ce81e164f  libidn11_1.23-2_amd64.deb
         af3a8f97461348a402f14a2da1480b9e8ce88802330952f831f248f5b7386556  libjpeg8_8c-2ubuntu7_amd64.deb
-        692fbe946c71c7ffbb7907f88b40407dc182ae3fb998934a0ad35c659ec21afb  libjpeg-turbo8_1.1.90+svn733-0ubuntu4.3_amd64.deb
+        265aa96ac2f70e349f797a92391beaef41d367b9644777382a8c3adb8d435463  libjpeg-turbo8_1.1.90+svn733-0ubuntu4.4_amd64.deb
         eb8ad3701debdb4951c07b889095c5bf50cea98f9e63d5fa5b6b18bca8c9e77b  libk5crypto3_1.10+dfsg~beta1-2ubuntu0.3_amd64.deb
         ced101d37d7089bb0c2bf908641713c6018d24ec5315c08aaf4f72d2de89f234  libkeyutils1_1.5.2-2_amd64.deb
         1d07135e2b470636cd87d5a3c48e6c6af455fb4db3a83c69ced6e400833fb0cb  libklibc_1.5.25-1ubuntu2_amd64.deb
@@ -481,7 +481,7 @@
         4b836f84abc3fe9e259c47b2551f83f3c81ea86b6e7aed9be9fff689e3c1f6cd  liblockfile1_1.09-3ubuntu0.1_amd64.deb
         5153f22e58846c4440c4ab9351ded0ff927d8caba220041521badbca0dae19b2  liblockfile-bin_1.09-3ubuntu0.1_amd64.deb
         b81c654eb8e99256364f4b2d0c521ed258785dccf42c861f7784d1cf84730c85  liblzma5_5.1.1alpha+20110809-3_amd64.deb
-        3aa9aef2cd78213a6a41a352a3ed434d0cb431819de87389938699640d0c499d  libmagic1_5.09-2ubuntu0.3_amd64.deb
+        ba5d867d4a5f47e792ab0ddae14fd3b464d0f8e920d11f0e5ac07fb3f90aeedc  libmagic1_5.09-2ubuntu0.4_amd64.deb
         4ca234fb255ad25f5a39a15695715dcf56d8ca870540c196840e9ca3951f6e44  libmng1_1.0.10-3_amd64.deb
         29a2877a5b923724642b7f6d0f8da331153b283c7e6520594f3265c3926ea285  libmount1_2.20.1-1ubuntu3.1_amd64.deb
         95f7d3525356b56d615b5c9899945bdd081d3740e3666a180db14bb685da521d  libmpc2_0.9-4_amd64.deb
@@ -638,7 +638,7 @@
         4789a2b2db6bdc0e70872c3a9768de0f0952546f371dd2f81f011212d2120176  util-linux_2.20.1-1ubuntu3.1_amd64.deb
         feb484d1a1cee7c6d81e4878303c758a3a9adb9c0c26459447449ed94ed7d91d  vim-common_2%3a7.3.429-2ubuntu2.1_amd64.deb
         6bcb05b4f9ba06eeb6a3ea451e9c00729dce645f237a25ca9518777ee353a732  vim-tiny_2%3a7.3.429-2ubuntu2.1_amd64.deb
-        83b2910f8a147a4d9d48816222426100254bc57da013b230ec1bac289f0c7dfb  wget_1.13.4-2ubuntu1_amd64.deb
+        693ce689cdf4a867dae5d33e43d4c44eca98215e536d8bb4af5188c04aa13b59  wget_1.13.4-2ubuntu1.1_amd64.deb
         44183e06857732f1888306c1473455514d7f0c6f164d761c99f08c479bc565ab  whiptail_0.52.11-2ubuntu10_amd64.deb
         bc0c78165d91e64b5b6441d94a7e49b20f8c807107a4f01af39c0fa826482aa5  wireless-regdb_2011.04.28-1ubuntu3_all.deb
         28b9c58322a101aab5b513b3329be96112a5ca0ad53b8cffffb77334f564958d  x11-common_1%3a7.6+12ubuntu2_all.deb

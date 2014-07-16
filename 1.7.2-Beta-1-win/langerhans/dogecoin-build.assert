@@ -1,12 +1,12 @@
 --- !omap 
 - out_manifest: |
-    8f03cc2e6a6381aa995f1be06981437ddd715c100bd4ac03a8b103e606f87446  32/dogecoin-1.7.2-win32-setup.exe
+    8b9c1df95d23cd805d38aa362a2fdd5ad0995e596b5df094e93e41818d4ef70f  32/dogecoin-1.7.2-win32-setup.exe
     77244cc1ccf03f3b7a5d8c2dfacd9de85ed563531fb8062cee65072b5b011182  32/dogecoin-cli.exe
     6205d8368c3ec00cbe8ac695de0e74dd7be5eedef900fe143fa88063cdb3009b  32/dogecoin-qt.exe
     cc9dd5ebb7cf3fa6d28caeb872aa1261a88da27fc1772d7fdfdaf2999e38f439  32/dogecoind.exe
     beb2ad2affd9e5267963208d3852e4b9e76abf57c79ac614be1f9587421a93e0  32/test_dogecoin-qt.exe
     731aa43fc2f9e9bc70586fe2b045debdf5d572edbbed120bb31576e34ef54eb9  32/test_dogecoin.exe
-    f59212b214bbad15e1acd85854d9930816282ff441ea622e9ad46be4430e2589  64/dogecoin-1.7.2-win64-setup.exe
+    dc69a690cf3b573146fd2f361f8b69baf7d25bacdd86a478d37d73bb2b505ef5  64/dogecoin-1.7.2-win64-setup.exe
     5d8aad65dbeb72a4e72f52cb87811f4491ff84c09f899066e143869791685b71  64/dogecoin-cli.exe
     5a4b41f7a4d7f069ef12184a759e419c3b050f8d9f0678e9ddf0f503daf03b5c  64/dogecoin-qt.exe
     bb21fa20b15693d97a376c0a4ad273490b4efb640c372781cad90ad42d10b12c  64/dogecoind.exe
@@ -67,7 +67,7 @@
         fc1a1c7c942536c34c1e2489c9cc4e7f988eb41d04c0cee955521d2b4bbbad6c  eject_2.1.5+deb1+cvs20081104-9_amd64.deb
         da223309ad4f25e18099e2bfe9d38801d7e351d7a5dd740842fc9e84d78c328b  fakeroot_1.18.2-1_amd64.deb
         388149060bb0fc67bf49f7e17cec1319c8fa1faf7dc850ca678b10b27b67cdb0  faketime_0.8-1_amd64.deb
-        970a830b04f5e86321cece7628ec37a44f75b14efaf495797f392c5277ad2170  file_5.09-2ubuntu0.3_amd64.deb
+        1c76dac044b7c8ac38d2bfa78405e47d5b51ae6ff8e9789b6a5ba7685a0a8cfe  file_5.09-2ubuntu0.4_amd64.deb
         0489d0056ac55d8dd67671d13acc268e11287d6bbd1009de9e7aa78a8ab981a6  findutils_4.4.2-4ubuntu1_amd64.deb
         4b586c67c572609a11ff5a37bf9745f67a30254db21ca2e788e27da7dedc7223  g++_4%3a4.6.3-1ubuntu5_amd64.deb
         981701bb7f5f94eccd4500432428b698e3e8f7634d454799a57de032f0ad836e  g++-4.6_4.6.3-1ubuntu5_amd64.deb
@@ -171,7 +171,7 @@
         4b836f84abc3fe9e259c47b2551f83f3c81ea86b6e7aed9be9fff689e3c1f6cd  liblockfile1_1.09-3ubuntu0.1_amd64.deb
         5153f22e58846c4440c4ab9351ded0ff927d8caba220041521badbca0dae19b2  liblockfile-bin_1.09-3ubuntu0.1_amd64.deb
         b81c654eb8e99256364f4b2d0c521ed258785dccf42c861f7784d1cf84730c85  liblzma5_5.1.1alpha+20110809-3_amd64.deb
-        3aa9aef2cd78213a6a41a352a3ed434d0cb431819de87389938699640d0c499d  libmagic1_5.09-2ubuntu0.3_amd64.deb
+        ba5d867d4a5f47e792ab0ddae14fd3b464d0f8e920d11f0e5ac07fb3f90aeedc  libmagic1_5.09-2ubuntu0.4_amd64.deb
         29a2877a5b923724642b7f6d0f8da331153b283c7e6520594f3265c3926ea285  libmount1_2.20.1-1ubuntu3.1_amd64.deb
         95f7d3525356b56d615b5c9899945bdd081d3740e3666a180db14bb685da521d  libmpc2_0.9-4_amd64.deb
         3f65f36143f9acf139b5d25190668605ad1056a58a5228b8ee6e87a5156713bb  libmpfr4_3.1.0-3ubuntu2_amd64.deb
@@ -305,7 +305,7 @@
         4789a2b2db6bdc0e70872c3a9768de0f0952546f371dd2f81f011212d2120176  util-linux_2.20.1-1ubuntu3.1_amd64.deb
         feb484d1a1cee7c6d81e4878303c758a3a9adb9c0c26459447449ed94ed7d91d  vim-common_2%3a7.3.429-2ubuntu2.1_amd64.deb
         6bcb05b4f9ba06eeb6a3ea451e9c00729dce645f237a25ca9518777ee353a732  vim-tiny_2%3a7.3.429-2ubuntu2.1_amd64.deb
-        83b2910f8a147a4d9d48816222426100254bc57da013b230ec1bac289f0c7dfb  wget_1.13.4-2ubuntu1_amd64.deb
+        693ce689cdf4a867dae5d33e43d4c44eca98215e536d8bb4af5188c04aa13b59  wget_1.13.4-2ubuntu1.1_amd64.deb
         44183e06857732f1888306c1473455514d7f0c6f164d761c99f08c479bc565ab  whiptail_0.52.11-2ubuntu10_amd64.deb
         bc0c78165d91e64b5b6441d94a7e49b20f8c807107a4f01af39c0fa826482aa5  wireless-regdb_2011.04.28-1ubuntu3_all.deb
         0bff72eaad69f931cbab89c8ab7790d0c1e3e910100dbc772682ae78797372ee  xauth_1%3a1.0.6-1_amd64.deb
