@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    c003f846b9aea8015b6b944ea85a585315249a041b772676522d58baef62c7a4  bin/32/dogecoin-cli
-    4109613e209a04226549e303654edd4aa29acb7bbd3bb64057367e4c30585db8  bin/32/dogecoin-qt
-    aa408012d78039e789c1ce0cd6ed4d444993096bb9bd8c24a83644ff9b347595  bin/32/dogecoind
-    40a9a94e3d46419be6970dea1467246d5178aeeead531583a3a985643504027e  bin/32/test_dogecoin
-    e21d80432aa582b6c5cb2834e3e29edec2a4d54503a2b4ae1f028468cb7e0ffa  bin/32/test_dogecoin-qt
-    bff1244d1b763c7dbc21c767257ea779fceea4dc6088a55e6029b6e5cf07c70b  bin/64/dogecoin-cli
-    73474424b21caa51ded65e5d77304663e2e2afdaa1fd12f72376ff404c27472e  bin/64/dogecoin-qt
-    e8d7dd2d70d13c7a833b4d336e46ff9bca034f49c8713ca32cbc63097a44cf31  bin/64/dogecoind
-    b7b80d96edf29d056bff5d2f67c6a12da123165439e605060ba6d8e9733089d7  bin/64/test_dogecoin
-    b6b5256470b36188668bbdadb3dd13b9b2b90bf653120ac1b4fd68ca9350e320  bin/64/test_dogecoin-qt
-    5993f08caccfdb48f6e707dfe68fa8a83cc84288f1448670c43adf8f48290772  src/dogecoin-1.8.2.tar.gz
+    7a38dcbb59d174eb039f381784a6f11a221d3d89fd51fd8a105dc547cb736f55  bin/32/dogecoin-cli
+    93573b29f98d7aa3d1a527967e0e73d779a71cb7839d4e032c2f3bf95e3c202a  bin/32/dogecoin-qt
+    91fdc796fdeb6bba87bc5ccec5b0119bbdc1941113df280b75f2a15b2ceab6ff  bin/32/dogecoind
+    c35595c9e3bf0f966f361ca1e9c89a4744526cd236e7472c4239452d9a69797e  bin/32/test_dogecoin
+    4d955db96ccb2441b5d3775e1ad5cdf604b6ee15dad5926bd60f8704572ff5ef  bin/32/test_dogecoin-qt
+    8d83510feb237d62162c7ef4ddffca5e25a01cae9a448853a35d5fcee8a79619  bin/64/dogecoin-cli
+    03469cc8d4a73f49a6bdffab1cc2fe7390ae4ec346d8661d80c8c69074fa1418  bin/64/dogecoin-qt
+    9a0a5f199972656d67e3693a10347a95bf4d20cfcf40d4c649a3ac879b23b89e  bin/64/dogecoind
+    6e56aba6558207690936a31ae62e05a0c8783ad65912de145babbbe288ea9937  bin/64/test_dogecoin
+    a19b59fc56f483355f5d97e4aca1f394478dceedb8e0fde21df1da586d154305  bin/64/test_dogecoin-qt
+    c9a59bd370e24d99ee51c791eb391f2e253b7e8b0db1b81503f5eb384fbd018c  src/dogecoin-1.8.2.tar.gz
 - in_manifest: |-
     b5ec016c6662cc4ef0eab781d625db9ca9bb660330f866bdd5dad9902c0f3beb  dogecoin-desc.yml
     0331de2b05c275986545e8d2d6a4becf625e5935034803dc508c9d641e70c7cb  dogecoin-deps-linux32-gitian-r10.zip
@@ -19,7 +19,7 @@
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
     57e57dbdadc818cd270e7e00500a5e1085b3bcbdef69a885f0fb7573a8d987e1  qt-linux32-4.6.4-gitian-r1.tar.gz
     60eb4b9c5779580b7d66529efa5b2836ba1a70edde2a0f3f696d647906a826be  qt-linux64-4.6.4-gitian-r1.tar.gz
-    git:cac0f0b8b91c3e5f54a06b4b768e3411ff29f06e dogecoin
+    git:7d9a380c368a504fd3d272a27800c1dc471b51ef dogecoin
 - base_manifests: !omap
   - precise-i386: |
       5ebcb985ca600ff8028dd67afb6cdd03ebb375fa8d6b46a8f337ef37b68828d5  accountsservice_0.6.15-2ubuntu9.7_i386.deb

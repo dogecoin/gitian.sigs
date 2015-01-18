@@ -1,18 +1,18 @@
 --- !omap
 - out_manifest: |
-    04be7723e46127e7657bdf32c08307249778f636bf049a7ea4b7e49e88dfb7f5  32/dogecoin-1.8.2-win32-setup.exe
-    d52167b4ec0584823e0d839e5282e36e641e6563eef83e731e450eba8608982b  32/dogecoin-cli.exe
-    a80a51ac102f5b603d726b280cd48b722863141b6cf9ad81b094537db5ac729b  32/dogecoin-qt.exe
-    accc2129c7cd387d5cf69694985e8f6f256465c17c6ac918db4ae40a006e9333  32/dogecoind.exe
-    221601622ab1dc5c4c4d31507fc8c744c0038d34fbaa058e316c1f90f845e55c  32/test_dogecoin-qt.exe
-    824cf1718ea8b459983664cdec190b851c3c1a45cc76b218328ca6562c9b5cb8  32/test_dogecoin.exe
-    22d8145d128ace16e845d31eec55f73c18a0947ed767f34f9582c6f3b2ce4617  64/dogecoin-1.8.2-win64-setup.exe
-    7492e6841453ff65d6b308cd05191dfd22388f5813df870a2ce78969c793462d  64/dogecoin-cli.exe
-    e10b7b274a21bb3374d9bc826c3d9199504295a4a66aa57291d63818911e73e1  64/dogecoin-qt.exe
-    0c7b87b73e94d9d361f3969a90e16cc8c330a96dd30baf4e43bd50f3b8b4ef1c  64/dogecoind.exe
-    edc33a6d405e5eb96ff27114652c3cef518ac5c96dd97e58a5892958eff4a654  64/test_dogecoin-qt.exe
-    94396e887f09f7bf7b61a619ed697fe43fc8b46326ae18c0737d6ee374662a31  64/test_dogecoin.exe
-    5993f08caccfdb48f6e707dfe68fa8a83cc84288f1448670c43adf8f48290772  src/dogecoin-1.8.2.tar.gz
+    abd0e2042edbabd6bd0dc116ef9317c60cf60b72347b4c75ca13e6edfb2f9466  32/dogecoin-1.8.2-win32-setup.exe
+    4dca79e0bf825ef1867f760dc6a3702b920f931b9c6e5af244b8aa8b757e4cdb  32/dogecoin-cli.exe
+    21610bba7e6ae586759c6a7ee914007d32c8aa0dc216ecb5fde9fbed02971bec  32/dogecoin-qt.exe
+    37b46beed5478dbd211870cc405d6267b31379f34251a80314c743c8edfadc2d  32/dogecoind.exe
+    1068d9ff4ab0d5f732457125639079c62077e5431226d5ba3bab4981ec7048a8  32/test_dogecoin-qt.exe
+    fa087db84260b4c15f49ae44a4583318c7087fcc00ea45430542d7e5433a425e  32/test_dogecoin.exe
+    993736255f4e0c16e934a72447ba569cb2dd38a056f2530bc83db3f55ec2452f  64/dogecoin-1.8.2-win64-setup.exe
+    652c635bb0d040e184c9244ddf7b50d764be3fa66ad1783b201edc57e00257d1  64/dogecoin-cli.exe
+    fe449d79c755fc8dbfa860845f28141a6774217287fd3fc8cc871f5c97441ff9  64/dogecoin-qt.exe
+    f1cbb00380f7b6cecf3cd2370a9b35e987e40337a6f078d1a8540e98fc996bc4  64/dogecoind.exe
+    dcbebbf804a7bf8fe4b17fbaf80273ef54d80960aa8933a94714fa0327536677  64/test_dogecoin-qt.exe
+    967b65a50a6d0765258dbf4d7d727b0e9dc033019f133f813a09142e23c91057  64/test_dogecoin.exe
+    c9a59bd370e24d99ee51c791eb391f2e253b7e8b0db1b81503f5eb384fbd018c  src/dogecoin-1.8.2.tar.gz
 - in_manifest: |-
     208845c8a7934934ee8e8233eb40519d799c56090394ec9a3895b8ce14ba48f0  dogecoin-desc.yml
     963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
@@ -23,7 +23,7 @@
     b579a9af8a8b77d542738cf93e5a12bfb0957dade0281bebd96a1619fc587855  dogecoin-deps-win64-gitian-r17.zip
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
-    git:cac0f0b8b91c3e5f54a06b4b768e3411ff29f06e dogecoin
+    git:7d9a380c368a504fd3d272a27800c1dc471b51ef dogecoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
