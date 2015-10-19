@@ -1,7 +1,7 @@
 --- !omap
 - out_manifest: |
     c445bf9ffdd3eeb323932629b2d64a37bfe863181107f10b2160adf73942d9ab  dogecoin-1.10.0-linux32.tar.gz
-    3b041c84a0daf71bc943ab17b9ce7b04ca30624a55b192a539a3425cacb519d2  dogecoin-1.10.0-linux64.tar.gz
+    adf7f9dfa4a0979d3cf53bc9da81f4694b844d6a92d3cfa09f39275e5c7cbafe  dogecoin-1.10.0-linux64.tar.gz
     b96289c005e68985ef2d5bb3953acca3360b37929fc20a42c9eb5521ed44ee50  src/dogecoin-1.10.0.tar.gz
 - in_manifest: |-
     30aab11094bd9ab790c2716ff94c53eab7664d8521bc39921acb148456f667dd  dogecoin-linux-1.10-desc.yml
@@ -291,7 +291,7 @@
       caeeeffe6060012ac9190f3c01184b100ae82309155eaa535865c58d26135a42  libxml2_2.7.8.dfsg-5.1ubuntu4_amd64.deb
       f204599620d0984652b001bdc2e263c3c8f4faa728d168831a769a08013acb55  libyaml-0-2_0.1.4-2ubuntu0.12.04.4_amd64.deb
       874233a6c787aa1ddfddf7a567e4f348f3b0c18638ded8cdd3794a11347aaa72  linux-libc-dev_3.2.0-23.36_amd64.deb
-      81900ec393a73749ff5418a2cdfeda62ba2bbc69b95c6af5152fe2cd9e6f7c3e  linux-libc-dev_3.2.0-91.129_amd64.deb
+      1feeabf6995fbe4212e8b7260e22f31c9c992731f21b089aeb571798e31d3c10  linux-libc-dev_3.2.0-92.130_amd64.deb
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
       7127dd8a3fe3391cc7c978030a3b6d257f0da7a17aa2d7ad54c18dba832bfddf  lockfile-progs_0.1.16_amd64.deb
       a6e9bf44ae885e073d4c1049031c15f5077c31fe8faf4fa7bf22073e65412b3d  login_1%3a4.1.4.2+svn3283-3ubuntu5.1_amd64.deb
@@ -389,6 +389,8 @@
       2fff845c8c269d736e180779bb2e84bab79adc632f155ce708df038058883628  vim-common_2%3a7.3.429-2ubuntu2_amd64.deb
       6bcb05b4f9ba06eeb6a3ea451e9c00729dce645f237a25ca9518777ee353a732  vim-tiny_2%3a7.3.429-2ubuntu2.1_amd64.deb
       13eaa1344bc203f82aaa386b728f57612c2eca44c35a6d0fb0103c3a84568d98  vim-tiny_2%3a7.3.429-2ubuntu2_amd64.deb
+      14e828aa7221c3a92f48beaf12b1329ad6216be7bdfa3bcbf4bf3f4b0bd3c176  wget_1.13.4-2ubuntu1.2_amd64.deb
+      83b2910f8a147a4d9d48816222426100254bc57da013b230ec1bac289f0c7dfb  wget_1.13.4-2ubuntu1_amd64.deb
       44183e06857732f1888306c1473455514d7f0c6f164d761c99f08c479bc565ab  whiptail_0.52.11-2ubuntu10_amd64.deb
       2a96e608c9f11591e5458de2c81cb1affe220370060f5fdb3b8c932496cffbc1  xkb-data_2.5-1ubuntu1.5_all.deb
       6b591c698da91e625884b6e411f1db840fb0026c3ed68d24a69b580d2da6bfbf  xkb-data_2.5-1ubuntu1_all.deb
@@ -435,7 +437,6 @@
     f829075bc646cdc085fa25d98d5885d83b1759ceb355933127c257e8e50432e0  libXext-1.3.2.tar.bz2
     6569a02eb31c2827080d7d59001869ea14484c281efab0ae7f2b86af5c3120b3  libdmg-hfsplus-v0.1.tar.gz
     98d9ab05b636dd088603b64229dd1ab2d2cc02ab807892e107d674f9c3f2d5b5  libxcb-1.10.tar.bz2
-    26f3985bad7768b8483b793448ae49414cdc4451d0ec83e7c1944367e15f9f07  miniupnpc-1.9.20140701.tar.gz
     e444ac3b587ce82709c4d0cfca1fe71f44f9fc433e9f946b12b9e1bfe667a633  miniupnpc-1.9.20151008.tar.gz
     b2cf4d48fe5d49f240c61c9e624193a6f232b5ed0baf010681e725963c40d1d4  openssl-1.0.1l.tar.gz
     13bfc5ae543cf3aa180ac2485c0bc89495e3ae711fc6fab4f8ffe90dfb4bb677  protobuf-2.5.0.tar.bz2
@@ -510,8 +511,8 @@
     44f7205dfed904b6dfbfc4ad0c04cf07415551724d0cc9f4ed29c247d6dd1724  x86_64-unknown-linux-gnu/libXext/libXext-1.3.2-1622952e29b.tar.gz.hash
     f214e1e6f96f263099711bdce0da88f9f9683f3671660a8275bb7d5ab54dd54f  x86_64-unknown-linux-gnu/libxcb/libxcb-1.10-ae60191ecb3.tar.gz
     2aaba2d45a9489373eca82e9d8b150e05f97a084fc3a1ae76f5d0e753da07dab  x86_64-unknown-linux-gnu/libxcb/libxcb-1.10-ae60191ecb3.tar.gz.hash
-    f4e576c2899bf89eb52f1918dc267e6faf8b9d3b030dbc317978a039a0ed4eb6  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20151008-cd203632f31.tar.gz
-    07f6e60e732e2948764bc502906ba4486ec384ede9cc960130a97bad200371e8  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20151008-cd203632f31.tar.gz.hash
+    bafb72adcbd8b75e3f5f5ba64eeccf4a17d18122986f02f35de41928f0665b4e  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20151008-cd203632f31.tar.gz
+    aadd89a5f79908c615658b322e85b94b35667929c3a925c6587bb3ab93c9525b  x86_64-unknown-linux-gnu/miniupnpc/miniupnpc-1.9.20151008-cd203632f31.tar.gz.hash
     6f7341d12e6d78538f9edfc836cbdb16ea31e1f915f7b0634a65554a3f1e8cb1  x86_64-unknown-linux-gnu/native_ccache/native_ccache-3.1.9-1bde150d99e.tar.gz
     bab2b621d1c03f46c65c148e0adf85a845730b72eb629b3943084c9544c37f87  x86_64-unknown-linux-gnu/native_ccache/native_ccache-3.1.9-1bde150d99e.tar.gz.hash
     f6ea23779705c58524641b75889c0a0d86381e95905c9ec13eacaa92e4c12702  x86_64-unknown-linux-gnu/native_protobuf/native_protobuf-2.5.0-8d27223fe24.tar.gz
