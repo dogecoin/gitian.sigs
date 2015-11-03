@@ -1,18 +1,18 @@
 --- !omap
 - out_manifest: |
-    cc3d873ed3d50e7620b768a588f73c24de3e56cd264cb7560afae7fc9abd2367  32/dogecoin-1.8.3-win32-setup.exe
-    ce13abf4b568db79fa11129b92cab12f2b16ea0b3360cbe2c6425bb123c9ee13  32/dogecoin-cli.exe
-    e030bd34007c68043ec8212f8d799362595b4bae900fd74664810a778401de2c  32/dogecoin-qt.exe
-    418f0ee6ffc16a37c3b7b20c9a602dfa95a5b079a8c64c7735537531c45e5d83  32/dogecoind.exe
-    4fbb4560f045525747f8ea918f95b5e3eeafb7d6f3aaa877f869b86a9c2ef8bf  32/test_dogecoin-qt.exe
-    2dc12f16b16f3ce92d32225e634bf1e69989b85d6fbf5b22b96e08c36719bbab  32/test_dogecoin.exe
-    5074b17ad17158b8f1792bb3705de7f7838d9703a0f64b3f9ae94a629dffa1fb  64/dogecoin-1.8.3-win64-setup.exe
-    b1497e21b6f5a18977cd20e1f43a86cc1c03fe67b653ffd35c2ab51dbf3d865e  64/dogecoin-cli.exe
-    c4f97f7402e8f5c91892b04e47a905bd8f22cc4fdb50c720146452dc51c2b52e  64/dogecoin-qt.exe
-    154399edb6d82c5fa2af747320a96e4481aa007b465dad7342bbd7d99794452f  64/dogecoind.exe
-    6e1034e6455cc23b1210800b174602538d5b1bb92c84e6e67d17277e2891b1fb  64/test_dogecoin-qt.exe
-    1ace436d5ad4893b20eb0a7c7ae6534d943c7f6cd643df79cde2de00aaaef5a4  64/test_dogecoin.exe
-    aa1e08d64533bfa6a1ce8383f4b7fd829d97d0c92ae9c88de28756b64b4cec55  src/dogecoin-1.8.3.tar.gz
+    c23e80433aea3f846afbd4279b38820fe1a982275d74a0077cfb743d7790e554  32/dogecoin-1.8.3-win32-setup.exe
+    f770bf9b125e7821a5091603bcbf64531d52862e65ac02a20102a58dfbd46ccf  32/dogecoin-cli.exe
+    9ed5fd75226abd870a90a9d4883a480964ab0ad45cd8493d87811c7014487f2c  32/dogecoin-qt.exe
+    119fffd8a45e10135d4673e64620f284b84809cb8764e6b6659955577a46b280  32/dogecoind.exe
+    e1a1309e939f20f599f365c054525b30c130b0ebb34eb693ab7a2a6454d9f280  32/test_dogecoin-qt.exe
+    0aa0e84b3d7ddf5ebaf6b6aaa17c27c5fa284cfb5246adae4ef4d3abec181e2f  32/test_dogecoin.exe
+    8852eb5cc56d1e9aa1078fb3d1b76f753d4de5eea36a13306f0145b48450aabe  64/dogecoin-1.8.3-win64-setup.exe
+    77819305a35707a328e6314fd9dfcf58c3c313e84a60ca810c148e6ced93fb43  64/dogecoin-cli.exe
+    793c1b4f8ed3e20d09f996d2e7990d7cb6750bc5f4dbb382083cacd8984471e2  64/dogecoin-qt.exe
+    f1fb453759b4408e9e538b190eff293c51639ab8e9565a1ceeb17f74a53bb821  64/dogecoind.exe
+    f3e0553c2a4116d76395e632a6b68e839d23454a8fcdedc89b1350f2ec740b06  64/test_dogecoin-qt.exe
+    b9dd6da6dc1bed7e80b1d6b1ecac2db8ee110a4509a950f38648d74108914afa  64/test_dogecoin.exe
+    cdaf92b10eb185f6265b4cfbccca1277633df755eb009e3fdc91bd2729141d36  src/dogecoin-1.8.3.tar.gz
 - in_manifest: |-
     208845c8a7934934ee8e8233eb40519d799c56090394ec9a3895b8ce14ba48f0  dogecoin-desc.yml
     963e3e5e85879010a91143c90a711a5d1d5aba992e38672cdf7b54e42c56b2f1  qt-win32-5.2.0-gitian-r3.zip
@@ -23,13 +23,13 @@
     5fcaf8f890bfee58c78b3b740d1f7a73c723dc41679993433f51df0f3b440a40  dogecoin-deps-win64-gitian-r17.zip
     e2e403e1a08869c7eed4d4293bce13d51ec6a63592918b90ae215a0eceb44cb4  protobuf-win32-2.5.0-gitian-r4.zip
     a0999037e8b0ef9ade13efd88fee261ba401f5ca910068b7e0cd3262ba667db0  protobuf-win64-2.5.0-gitian-r4.zip
-    git:eab30077ffc0c3ebb441172d1e8466a05c96e4d6 dogecoin
+    git:a28062df9bff8c7db0ff59d88aaf4b205d90ad75 dogecoin
 - base_manifests: !omap
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
       43530acbbe880ed847ddab630dd2bc4bc5a0d4b85f0d6907d1111065a957a144  anacron_2.3-14ubuntu1_amd64.deb
-      0fedfcbf2aa138b2b49ebcf804a2b2abadca5f6315cf8101b1c35e0a5fe972ea  apt_0.8.16~exp12ubuntu10.26_amd64.deb
-      26c767aafd6d9987ce5bb11385da69a4c2b46fb37c4db17d4d3690593e201655  apt-utils_0.8.16~exp12ubuntu10.26_amd64.deb
+      73da81b57b493f69a587dda12b992db6ecc338280c351ede05474085d600db57  apt_0.8.16~exp12ubuntu10.25_amd64.deb
+      10d9952ee0b400ad31f296452e60f5a6ee2f06bd017de6a200c1fc17a139de02  apt-utils_0.8.16~exp12ubuntu10.25_amd64.deb
       acd5652a728dd6d873fa5b3ba77dbc240b8386d47860489620726c2b6493e231  autoconf2.13_2.13-61_all.deb
       7d1a4b47ed622f8f788e3cb9a399be50d571ab00ec434c929d623b73b44083db  autoconf_2.68-1ubuntu2_all.deb
       c4a16cbd500f281547fed560e4dea441d7c2230407a414f3845bbf1fe2638eb9  automake_1%3a1.11.3-1ubuntu2_all.deb
@@ -113,8 +113,8 @@
       5ac0a3029a7ad1f3f52e2c313f6f4d02c5e3a500931c0114c376498fce6bca90  libalgorithm-merge-perl_0.08-2_all.deb
       532a825f6799d0b4a6aecc9b1ac76837130699444a2045aa226f22dc74e42a0b  libapr1_1.4.6-1_amd64.deb
       4bcf86780cb6d44dd0ab4a801fe7d0affb53575b6ed14e5360790e9bfd3325db  libaprutil1_1.3.12+dfsg-3_amd64.deb
-      e8087ca5ad9bc02ceedc28428293465eafdb9d7e159de81f2eacd380f61da008  libapt-inst1.4_0.8.16~exp12ubuntu10.26_amd64.deb
-      bb9fb773f24d291984993115a6eb834815c6ce6716fc4b93a240c77369e97f3e  libapt-pkg4.12_0.8.16~exp12ubuntu10.26_amd64.deb
+      932168e02b1ccfba46b9b6032f182c8299406eaaf12abc6eb60e23873c5ab40b  libapt-inst1.4_0.8.16~exp12ubuntu10.25_amd64.deb
+      3cc6f721bfc5b40ca824158206de9404a660c04b3cc1fd5292b30701ed3db048  libapt-pkg4.12_0.8.16~exp12ubuntu10.25_amd64.deb
       920c13119a6e25c9b8e1efd9c838fa9242f86ce5f60c4a910e44fcead100317f  libasn1-8-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb
       3685a8a345c962cfd7df42a2b47a34fa341353dc36497a9e2129c3f6069ad838  libattr1_1%3a2.4.46-5ubuntu1_amd64.deb
       7bd66d69774ffc3a223028597068478eb46227962f52ca789992a670518b34e9  libblkid1_2.20.1-1ubuntu3.1_amd64.deb
@@ -233,10 +233,10 @@
       32a607e0a2ebc9ff8378fa0cfd0748e8e506089a044159370f76f18981a0a277  linux-firmware_1.79.10_all.deb
       c7b4ac71d75cf97ac154902f9bb6807ba2e404adc599f961a7e24e56f6951fb0  linux-firmware_1.79.18_all.deb
       39f04ef0e8fe4873104c637188581078d078c2e852e2278fff28c5e5a4f41353  linux-image-3.2.0-60-virtual_3.2.0-60.91_amd64.deb
-      cca7b143fa4ffd864c239f04bca1722cc3ec79580816638d49b673e3aaf5d913  linux-image-3.2.0-92-virtual_3.2.0-92.131_amd64.deb
+      3d562ad4b46a0f950739c069b76e9ce9974c97ce9d3b876316e3f95b94b31fc8  linux-image-3.2.0-91-virtual_3.2.0-91.129_amd64.deb
       d811b448bb6fe4c965638ece08be3d5ef5878fe3080b0eed7a1fca2400308b7b  linux-image-virtual_3.2.0.60.71_amd64.deb
-      2d9f6e97fe09a1b7ebceb989854629ef05bd232447a7c10c44138517adc665d9  linux-image-virtual_3.2.0.92.106_amd64.deb
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      b2feae34749cd7a1a5d8bbbb60f2f403c73b9fba03569a8bf15bb5733b2f562d  linux-image-virtual_3.2.0.91.105_amd64.deb
+      81900ec393a73749ff5418a2cdfeda62ba2bbc69b95c6af5152fe2cd9e6f7c3e  linux-libc-dev_3.2.0-91.129_amd64.deb
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
       7127dd8a3fe3391cc7c978030a3b6d257f0da7a17aa2d7ad54c18dba832bfddf  lockfile-progs_0.1.16_amd64.deb
       a6e9bf44ae885e073d4c1049031c15f5077c31fe8faf4fa7bf22073e65412b3d  login_1%3a4.1.4.2+svn3283-3ubuntu5.1_amd64.deb
@@ -263,7 +263,7 @@
       a484cb7f42081b19a5fff8d02f78454083998c127f8159f85acbd618501ade4a  net-tools_1.60-24.1ubuntu2_amd64.deb
       19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
       baeed7c0c9efbb59af736dcd342befd8f51c343d430db50e71d13740065c0ad1  nsis-common_2.46-7_all.deb
-      25f7042050f3fbb1b05bcac5fe5c28d09f8665ec9b76e633542457bbecdda805  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.6_amd64.deb
+      e5bd72b52f67a3d3510e7aee515398c97eacbd0f5cc566787e7544e8d080be44  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.4_amd64.deb
       59a9b244fe4576ed32c561e0554109226c24750ecbd394ec1d8f86251797dc2e  openssh-client_1%3a5.9p1-5ubuntu1.7_amd64.deb
       63b68efbb9b8b75fb570642fcbd4997121be5850753fcf898f8fbfdd38aad3d8  openssh-server_1%3a5.9p1-5ubuntu1.7_amd64.deb
       314321a91a4f47ac96aba669cec5be1c55344cacf1ebecfd90d2e3c87f7bc24f  openssl_1.0.1-4ubuntu5.31_amd64.deb
@@ -295,12 +295,12 @@
       d749ec72888b4bb3d74b47b6a1aa50d7008c87fd71547199d43887894a5fb73e  sysv-rc_2.88dsf-13.10ubuntu11.1_all.deb
       7301a3ddcd1ead4966a07403af77ae86e98b32a94c97c0921f0c4640a0151578  tar_1.26-4ubuntu1_amd64.deb
       c52bf53d1f2bf733eb0add71b32322c686a7bd396cb8893cbd89210165d90838  tcpd_7.6.q-21_amd64.deb
-      3cdae778d5ab21eb5ad3278fcc93c13e4b967ab5e3ca63148095d62ea369f9d7  tzdata_2015g-0ubuntu0.12.04_all.deb
+      f91cbc3ce1e4c13cd999e0e22091222b4e47963d9f5f7fc27c20bdd2246e38ed  tzdata_2015f-0ubuntu0.12.04_all.deb
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
       a9f13a01bba6f4c85057ba1d53cab607ea4c5ffad03f5f59146f5292396324a4  ubuntu-minimal_1.267.1_amd64.deb
       459c65d30f48d2ac2ef157b19d7a08e298117d07260701b0e12d48b8f235dc96  ucf_3.0025+nmu2ubuntu1_all.deb
       ea0836ed78f6f3dbb5ebde1230a33f763725ecb9fc103b28c906111fc5bf7aa3  udev_175-0ubuntu9.10_amd64.deb
-      a995c0b8946a6c5432822d50ff5af3149937ff3159328507aae585ac25a88b94  unzip_6.0-4ubuntu2.4_amd64.deb
+      3c8145a446b09605298376b49760226be8e72057be47fd0fcb7077210cdefc53  unzip_6.0-4ubuntu2.3_amd64.deb
       3499a9f71bcadba4943725833014d3f5aacda796736d3c45632ef3cb0777d7fe  upstart_1.5-0ubuntu7.3_amd64.deb
       997d8e2bb710303a21d9a7353f2d16b1fd5d880ca5190cab6dd3d59fba89bbbd  ureadahead_0.100.0-12_amd64.deb
       4789a2b2db6bdc0e70872c3a9768de0f0952546f371dd2f81f011212d2120176  util-linux_2.20.1-1ubuntu3.1_amd64.deb
@@ -316,7 +316,7 @@
       af0c73bd8d99f280a54570bc2008fccc57be5b6c9f3e1418c34497a8d5a2ffba  zlib1g_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
 - cache_common_manifest: ''
 - cache_package_manifest: ''
-- release: 1.8.3-win
+- release: 1.8.3-RC-1-win
 - name: dogecoin
 - type: build
 - optionals: 

@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    7ca7f3167d423db04b7361e3b5b1ed713fb709d2060fc236e6e44a29ed3dedf7  bin/32/dogecoin-cli
-    945a4d0766d93ad288051a67754aee3400f31bf5f22b3669801e5daea734f7b1  bin/32/dogecoin-qt
-    d9e1bff526dddb12f02e98ded37172f1c75e3762579ceffdce30bc484a94a812  bin/32/dogecoind
-    636875aad2ae650eb82ecbd94881f7c05e763474e8c5ff8fe51fe92f7356dba0  bin/32/test_dogecoin
-    229c1adab030c5934dce2a79fd562fe40df3388b577d65579b9b87cce033c923  bin/32/test_dogecoin-qt
-    3ee373b552997958dcabbba63d1fb9cf7471dafde0fee97bbcb59b4a9bfa037e  bin/64/dogecoin-cli
-    5994927040f265c8f2d01b9d8d1b9559e1624b4778d2d556a8e3ea1fd1476173  bin/64/dogecoin-qt
-    2a06934dd08861391372157f26e9694ffa9f06e328b5302e98a7566723a5e724  bin/64/dogecoind
-    2ea1e3bea01d14ce6c4bbc164e8070efcd5809d053deca4a156ffe3122113e4f  bin/64/test_dogecoin
-    1b3a45790c3b7bee3c4dff06ef3b057ea0df84f49bd032a35328d6f715e9d177  bin/64/test_dogecoin-qt
-    aa1e08d64533bfa6a1ce8383f4b7fd829d97d0c92ae9c88de28756b64b4cec55  src/dogecoin-1.8.3.tar.gz
+    1fbb8b608256ca2de1963de06a3244c81e80fc8ceac2c8734b2e9432a65d507a  bin/32/dogecoin-cli
+    9d1620bbd40a023357f49afc2c07e86f46cad4502f5e5bf3a14669373d0e6579  bin/32/dogecoin-qt
+    11c8b1e61fb47f44113e3c948aa6854275635cd0e27822bcc745b3a7be8439e2  bin/32/dogecoind
+    f6d73a3f545ba77b71d1510cf200b920c07a60bfe122680ef10be1af17249205  bin/32/test_dogecoin
+    dae656adc20256d6a05a57535025808504b75df624cd04173789edf2c550c5d7  bin/32/test_dogecoin-qt
+    a32b055f723d28dad683beddc2602151110663e1e368a9fcfd50b7f931e0c24a  bin/64/dogecoin-cli
+    ee0b6dd8908e130c1818cecdc16c6dcd8734695f1574d9aab900723ff42c677e  bin/64/dogecoin-qt
+    c2317b81107e9ee52d8e597762860ae5d99d5db4c88462e9609cb11980bdb6c4  bin/64/dogecoind
+    4778c4d9813973e3a2e3bfeb746bab18f3c59ba47710b7def0cca2a5f43b063d  bin/64/test_dogecoin
+    880177f3fb60a4862af42b19cdd54a76153a6255975c2ae6d5dd71bcbfc09c02  bin/64/test_dogecoin-qt
+    cdaf92b10eb185f6265b4cfbccca1277633df755eb009e3fdc91bd2729141d36  src/dogecoin-1.8.3.tar.gz
 - in_manifest: |-
     b5ec016c6662cc4ef0eab781d625db9ca9bb660330f866bdd5dad9902c0f3beb  dogecoin-desc.yml
     d59da9095d65e3ec9415f2265b6196824e8d79a409164701a6089487eb402afa  dogecoin-deps-linux32-gitian-r10.zip
@@ -19,13 +19,13 @@
     88232451c4104f7eb16e469ac6474fd1231bd485687253f7b2bdf46c0781d535  boost-linux64-1.55.0-gitian-r1.zip
     57e57dbdadc818cd270e7e00500a5e1085b3bcbdef69a885f0fb7573a8d987e1  qt-linux32-4.6.4-gitian-r1.tar.gz
     60eb4b9c5779580b7d66529efa5b2836ba1a70edde2a0f3f696d647906a826be  qt-linux64-4.6.4-gitian-r1.tar.gz
-    git:eab30077ffc0c3ebb441172d1e8466a05c96e4d6 dogecoin
+    git:a28062df9bff8c7db0ff59d88aaf4b205d90ad75 dogecoin
 - base_manifests: !omap
   - precise-i386: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
       8ba395b7cfecea0f0e3402b607896e3f359b9e713af989faf0e3dcac288ca834  anacron_2.3-14ubuntu1_i386.deb
-      af5186e49d942f428e3e9ccfc962f56b833ffebd76b4a1aac4f4f13e12d671b1  apt_0.8.16~exp12ubuntu10.26_i386.deb
-      2ead345199276c464a09ab6be91ef6e57e9e7986f42543f837f36b34d9aa9716  apt-utils_0.8.16~exp12ubuntu10.26_i386.deb
+      5fea3a7d47f39b1ad533b52340901fc77581c8ab68d4525f14a1527e53db1a01  apt_0.8.16~exp12ubuntu10.25_i386.deb
+      9d6c2b2d64f2a0a8df4a7574b5ff9d39aa888dece0259583ead903b8959cdcf8  apt-utils_0.8.16~exp12ubuntu10.25_i386.deb
       acd5652a728dd6d873fa5b3ba77dbc240b8386d47860489620726c2b6493e231  autoconf2.13_2.13-61_all.deb
       7d1a4b47ed622f8f788e3cb9a399be50d571ab00ec434c929d623b73b44083db  autoconf_2.68-1ubuntu2_all.deb
       c4a16cbd500f281547fed560e4dea441d7c2230407a414f3845bbf1fe2638eb9  automake_1%3a1.11.3-1ubuntu2_all.deb
@@ -102,8 +102,8 @@
       5ac0a3029a7ad1f3f52e2c313f6f4d02c5e3a500931c0114c376498fce6bca90  libalgorithm-merge-perl_0.08-2_all.deb
       9a65c4fa3c73aad5468af4fbd178e44b6e73dfefc11bddbe2898f5b2d545b0e2  libapr1_1.4.6-1_i386.deb
       7fbfbfeb2c819489aa0d2dba823384b59186a9c7608b38213638e68382061a5d  libaprutil1_1.3.12+dfsg-3_i386.deb
-      e1e8dfaa3737bba75c09affe7a15da99ac899ce1ba7cf5f19379f9baf0b91439  libapt-inst1.4_0.8.16~exp12ubuntu10.26_i386.deb
-      2ef8318c685450a29b1bdea6b3dbab089e1725a19b4cbbb74d5723ae5b9abc6f  libapt-pkg4.12_0.8.16~exp12ubuntu10.26_i386.deb
+      4ec1a6b03931ff21b9f4bb98396a668d63f56085049d9b473c9c1ee16dd2e48c  libapt-inst1.4_0.8.16~exp12ubuntu10.25_i386.deb
+      f11941cec40a852876b172d0129983e604d4b56a15486c551cf3600840a19241  libapt-pkg4.12_0.8.16~exp12ubuntu10.25_i386.deb
       743e9f4055f43e7c71ff5c9bf8296644b14418c8a7ce7c5ead3b6561abaa10d7  libasn1-8-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_i386.deb
       de916cfe0d7360750fd89d93fc8a764fd899c441dea5e3380d7aef3556927885  libattr1_1%3a2.4.46-5ubuntu1_i386.deb
       f15876dacc40f92447ba72ee2e2d3d018c325779ac02c0ae806dc029f809ff57  libaudio2_1.9.3-4ubuntu0.1_i386.deb
@@ -256,10 +256,10 @@
       32a607e0a2ebc9ff8378fa0cfd0748e8e506089a044159370f76f18981a0a277  linux-firmware_1.79.10_all.deb
       c7b4ac71d75cf97ac154902f9bb6807ba2e404adc599f961a7e24e56f6951fb0  linux-firmware_1.79.18_all.deb
       12109c36195925152d0a8fe8ca2b0fcec5cd8b622d15a0c8ac1c55eced7bb5c6  linux-image-3.2.0-60-virtual_3.2.0-60.91_i386.deb
-      7fd43f47bc8e4d6cda89a5d517fd10201671bd0c35e6de32b55b2907a36f9ee2  linux-image-3.2.0-92-virtual_3.2.0-92.131_i386.deb
+      d852e51dcb953a43e597a8ddc1811a50309e6d0b65c9371b2f3ebd379cd64812  linux-image-3.2.0-91-virtual_3.2.0-91.129_i386.deb
       ee5e17fe0c28c2ee5e798a18f768b5103e06ab18634bd7a9571249e213c316fc  linux-image-virtual_3.2.0.60.71_i386.deb
-      edb3b8acafe15f0402a2facc5587d73e4436ec7008fa0e4f43ef3eda2471e7be  linux-image-virtual_3.2.0.92.106_i386.deb
-      bf84122f0821d45de4824355e806f4769cf9bb987595da47293320daff46e10e  linux-libc-dev_3.2.0-92.131_i386.deb
+      14e87bf44aeabaf622d5aea503c45e473f55979379a1236c04bc190a1e9511fe  linux-image-virtual_3.2.0.91.105_i386.deb
+      365dcefe77e32bcc8c78d06873399a47288bdeafdd76fd0ad18dbfd7cea799e5  linux-libc-dev_3.2.0-91.129_i386.deb
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
       48f53573154b06914619f6499e978dd5fbf624f3c85c2eb357a2ed6af1d2cb43  lockfile-progs_0.1.16_i386.deb
       910ebe3a49fb13d44481e59ee33be9861828e7c9820ebd4bbf3bdf95d195e396  login_1%3a4.1.4.2+svn3283-3ubuntu5.1_i386.deb
@@ -282,7 +282,7 @@
       93ecae98786e01149684d9a7b2760e78c2b34d6ff647c52c6dd591d980d78be5  netbase_4.47ubuntu1_all.deb
       c22eebe0c1f54d47101b145cc287183d13e1610426fbd575428fc131b3c2c9be  netcat-openbsd_1.89-4ubuntu1_i386.deb
       bc2d6e5593f934eddcf9cf47e528a63e80a31be25959cb261be0921e3f62e247  net-tools_1.60-24.1ubuntu2_i386.deb
-      573099e289c94030a691aa207c83bee7bbe4e188f13b0bea097f8dc8ef399df0  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.6_i386.deb
+      9ea10a17a2fde100a6897c45b54453507d474e75e8a89080e66450d368a26ff8  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.4_i386.deb
       8d1bebfea6fce7c074f14aa1596d3ec008f4e14aa1cca6259d474f2d27b642d0  openssh-client_1%3a5.9p1-5ubuntu1.7_i386.deb
       1a9afaf0e38ff4942c44058304a2cc9e3a61fe81a113313cef8428b8ec1ab0a2  openssh-server_1%3a5.9p1-5ubuntu1.7_i386.deb
       57b68a24649167cb44022760643b662262985625df7effb92c42e16d29dea21f  openssl_1.0.1-4ubuntu5.31_i386.deb
@@ -315,12 +315,12 @@
       734ec4ae81a59b099f9f3a071ba6166fc6514acdc4118615a5ec4d99527a175d  tar_1.26-4ubuntu1_i386.deb
       ab3745b59a3267b0fc3288fc015a0bee7123c8e3d7b980a43a2e40eaea9543ef  tcpd_7.6.q-21_i386.deb
       219c96cd3b0355f528beb7018113fa0ff817fc6db884d5fd2723e8c939ad9755  ttf-dejavu-core_2.33-2ubuntu1_all.deb
-      3cdae778d5ab21eb5ad3278fcc93c13e4b967ab5e3ca63148095d62ea369f9d7  tzdata_2015g-0ubuntu0.12.04_all.deb
+      f91cbc3ce1e4c13cd999e0e22091222b4e47963d9f5f7fc27c20bdd2246e38ed  tzdata_2015f-0ubuntu0.12.04_all.deb
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
       7a19460c7590ac2818a434d94c77454130fb8b2a88fd8d5079d2fd08e7b5936a  ubuntu-minimal_1.267.1_i386.deb
       459c65d30f48d2ac2ef157b19d7a08e298117d07260701b0e12d48b8f235dc96  ucf_3.0025+nmu2ubuntu1_all.deb
       4f2875bcb47488152e420752f36b90d31ee5c9971aedb025f2774d78704a5364  udev_175-0ubuntu9.10_i386.deb
-      26d8eb443fd5238ee6e7484aca1e4380c7bba7ad634395214cd9cb5b64abcb8a  unzip_6.0-4ubuntu2.4_i386.deb
+      62612c8f9a6f2dbf3a0b439118731f34f975a9e825dd377253862908df81bf8c  unzip_6.0-4ubuntu2.3_i386.deb
       2ddfbcd82eb5c7b158d77a286392dc9bee5d51a745bea35fabd144674bf332e5  upstart_1.5-0ubuntu7.3_i386.deb
       a4aba20888e75602eb30075638e7c11c5108202bae90d4ade8035940999de5f2  ureadahead_0.100.0-12_i386.deb
       353676f30087f518cb6fc531db5cb54505dc8d84aa5e896a0453770b52d25aea  util-linux_2.20.1-1ubuntu3.1_i386.deb
@@ -338,8 +338,8 @@
   - precise-amd64: |
       edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
       43530acbbe880ed847ddab630dd2bc4bc5a0d4b85f0d6907d1111065a957a144  anacron_2.3-14ubuntu1_amd64.deb
-      0fedfcbf2aa138b2b49ebcf804a2b2abadca5f6315cf8101b1c35e0a5fe972ea  apt_0.8.16~exp12ubuntu10.26_amd64.deb
-      26c767aafd6d9987ce5bb11385da69a4c2b46fb37c4db17d4d3690593e201655  apt-utils_0.8.16~exp12ubuntu10.26_amd64.deb
+      73da81b57b493f69a587dda12b992db6ecc338280c351ede05474085d600db57  apt_0.8.16~exp12ubuntu10.25_amd64.deb
+      10d9952ee0b400ad31f296452e60f5a6ee2f06bd017de6a200c1fc17a139de02  apt-utils_0.8.16~exp12ubuntu10.25_amd64.deb
       acd5652a728dd6d873fa5b3ba77dbc240b8386d47860489620726c2b6493e231  autoconf2.13_2.13-61_all.deb
       7d1a4b47ed622f8f788e3cb9a399be50d571ab00ec434c929d623b73b44083db  autoconf_2.68-1ubuntu2_all.deb
       c4a16cbd500f281547fed560e4dea441d7c2230407a414f3845bbf1fe2638eb9  automake_1%3a1.11.3-1ubuntu2_all.deb
@@ -416,8 +416,8 @@
       5ac0a3029a7ad1f3f52e2c313f6f4d02c5e3a500931c0114c376498fce6bca90  libalgorithm-merge-perl_0.08-2_all.deb
       532a825f6799d0b4a6aecc9b1ac76837130699444a2045aa226f22dc74e42a0b  libapr1_1.4.6-1_amd64.deb
       4bcf86780cb6d44dd0ab4a801fe7d0affb53575b6ed14e5360790e9bfd3325db  libaprutil1_1.3.12+dfsg-3_amd64.deb
-      e8087ca5ad9bc02ceedc28428293465eafdb9d7e159de81f2eacd380f61da008  libapt-inst1.4_0.8.16~exp12ubuntu10.26_amd64.deb
-      bb9fb773f24d291984993115a6eb834815c6ce6716fc4b93a240c77369e97f3e  libapt-pkg4.12_0.8.16~exp12ubuntu10.26_amd64.deb
+      932168e02b1ccfba46b9b6032f182c8299406eaaf12abc6eb60e23873c5ab40b  libapt-inst1.4_0.8.16~exp12ubuntu10.25_amd64.deb
+      3cc6f721bfc5b40ca824158206de9404a660c04b3cc1fd5292b30701ed3db048  libapt-pkg4.12_0.8.16~exp12ubuntu10.25_amd64.deb
       920c13119a6e25c9b8e1efd9c838fa9242f86ce5f60c4a910e44fcead100317f  libasn1-8-heimdal_1.6~git20120311.dfsg.1-2ubuntu0.1_amd64.deb
       3685a8a345c962cfd7df42a2b47a34fa341353dc36497a9e2129c3f6069ad838  libattr1_1%3a2.4.46-5ubuntu1_amd64.deb
       dc1d1bb7d6c881d5057e3a2d83a1e439500036bfd08fad8cac6fc9c6e373a1fd  libaudio2_1.9.3-4ubuntu0.1_amd64.deb
@@ -570,10 +570,10 @@
       32a607e0a2ebc9ff8378fa0cfd0748e8e506089a044159370f76f18981a0a277  linux-firmware_1.79.10_all.deb
       c7b4ac71d75cf97ac154902f9bb6807ba2e404adc599f961a7e24e56f6951fb0  linux-firmware_1.79.18_all.deb
       39f04ef0e8fe4873104c637188581078d078c2e852e2278fff28c5e5a4f41353  linux-image-3.2.0-60-virtual_3.2.0-60.91_amd64.deb
-      cca7b143fa4ffd864c239f04bca1722cc3ec79580816638d49b673e3aaf5d913  linux-image-3.2.0-92-virtual_3.2.0-92.131_amd64.deb
+      3d562ad4b46a0f950739c069b76e9ce9974c97ce9d3b876316e3f95b94b31fc8  linux-image-3.2.0-91-virtual_3.2.0-91.129_amd64.deb
       d811b448bb6fe4c965638ece08be3d5ef5878fe3080b0eed7a1fca2400308b7b  linux-image-virtual_3.2.0.60.71_amd64.deb
-      2d9f6e97fe09a1b7ebceb989854629ef05bd232447a7c10c44138517adc665d9  linux-image-virtual_3.2.0.92.106_amd64.deb
-      2abf9b164888b10d420753d76b0fc153646eccac96ae3bed063a61fc6b7fd81e  linux-libc-dev_3.2.0-92.131_amd64.deb
+      b2feae34749cd7a1a5d8bbbb60f2f403c73b9fba03569a8bf15bb5733b2f562d  linux-image-virtual_3.2.0.91.105_amd64.deb
+      81900ec393a73749ff5418a2cdfeda62ba2bbc69b95c6af5152fe2cd9e6f7c3e  linux-libc-dev_3.2.0-91.129_amd64.deb
       bca0256f7f038da304f7530d328ce60fa2d24f0e1554f2993df2f39a3c4b45e0  locales_2.13+git20120306-3_all.deb
       7127dd8a3fe3391cc7c978030a3b6d257f0da7a17aa2d7ad54c18dba832bfddf  lockfile-progs_0.1.16_amd64.deb
       a6e9bf44ae885e073d4c1049031c15f5077c31fe8faf4fa7bf22073e65412b3d  login_1%3a4.1.4.2+svn3283-3ubuntu5.1_amd64.deb
@@ -596,7 +596,7 @@
       93ecae98786e01149684d9a7b2760e78c2b34d6ff647c52c6dd591d980d78be5  netbase_4.47ubuntu1_all.deb
       257bd1be995ec3c8195ff3373a87368398e8ff61c00b06068d8715f1b4ff9cee  netcat-openbsd_1.89-4ubuntu1_amd64.deb
       a484cb7f42081b19a5fff8d02f78454083998c127f8159f85acbd618501ade4a  net-tools_1.60-24.1ubuntu2_amd64.deb
-      25f7042050f3fbb1b05bcac5fe5c28d09f8665ec9b76e633542457bbecdda805  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.6_amd64.deb
+      e5bd72b52f67a3d3510e7aee515398c97eacbd0f5cc566787e7544e8d080be44  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.4_amd64.deb
       59a9b244fe4576ed32c561e0554109226c24750ecbd394ec1d8f86251797dc2e  openssh-client_1%3a5.9p1-5ubuntu1.7_amd64.deb
       63b68efbb9b8b75fb570642fcbd4997121be5850753fcf898f8fbfdd38aad3d8  openssh-server_1%3a5.9p1-5ubuntu1.7_amd64.deb
       314321a91a4f47ac96aba669cec5be1c55344cacf1ebecfd90d2e3c87f7bc24f  openssl_1.0.1-4ubuntu5.31_amd64.deb
@@ -629,12 +629,12 @@
       7301a3ddcd1ead4966a07403af77ae86e98b32a94c97c0921f0c4640a0151578  tar_1.26-4ubuntu1_amd64.deb
       c52bf53d1f2bf733eb0add71b32322c686a7bd396cb8893cbd89210165d90838  tcpd_7.6.q-21_amd64.deb
       219c96cd3b0355f528beb7018113fa0ff817fc6db884d5fd2723e8c939ad9755  ttf-dejavu-core_2.33-2ubuntu1_all.deb
-      3cdae778d5ab21eb5ad3278fcc93c13e4b967ab5e3ca63148095d62ea369f9d7  tzdata_2015g-0ubuntu0.12.04_all.deb
+      f91cbc3ce1e4c13cd999e0e22091222b4e47963d9f5f7fc27c20bdd2246e38ed  tzdata_2015f-0ubuntu0.12.04_all.deb
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
       a9f13a01bba6f4c85057ba1d53cab607ea4c5ffad03f5f59146f5292396324a4  ubuntu-minimal_1.267.1_amd64.deb
       459c65d30f48d2ac2ef157b19d7a08e298117d07260701b0e12d48b8f235dc96  ucf_3.0025+nmu2ubuntu1_all.deb
       ea0836ed78f6f3dbb5ebde1230a33f763725ecb9fc103b28c906111fc5bf7aa3  udev_175-0ubuntu9.10_amd64.deb
-      a995c0b8946a6c5432822d50ff5af3149937ff3159328507aae585ac25a88b94  unzip_6.0-4ubuntu2.4_amd64.deb
+      3c8145a446b09605298376b49760226be8e72057be47fd0fcb7077210cdefc53  unzip_6.0-4ubuntu2.3_amd64.deb
       3499a9f71bcadba4943725833014d3f5aacda796736d3c45632ef3cb0777d7fe  upstart_1.5-0ubuntu7.3_amd64.deb
       997d8e2bb710303a21d9a7353f2d16b1fd5d880ca5190cab6dd3d59fba89bbbd  ureadahead_0.100.0-12_amd64.deb
       4789a2b2db6bdc0e70872c3a9768de0f0952546f371dd2f81f011212d2120176  util-linux_2.20.1-1ubuntu3.1_amd64.deb
@@ -651,7 +651,7 @@
       af0c73bd8d99f280a54570bc2008fccc57be5b6c9f3e1418c34497a8d5a2ffba  zlib1g_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
 - cache_common_manifest: ''
 - cache_package_manifest: ''
-- release: 1.8.3
+- release: 1.8.3-RC-1
 - name: dogecoin
 - type: build
 - optionals: 
