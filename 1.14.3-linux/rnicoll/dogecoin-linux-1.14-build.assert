@@ -737,7 +737,7 @@
     d8b0650b8a86cef1a3c7a20cf3b9fa13625d42c3be5e3b256a48e4b7214b9b55  x86_64-linux-gnu/zeromq/zeromq-4.1.5-a62992aefb6.tar.gz.hash
     ae62d3ea43e0907423bd484ad551e0c7237e320acc0399d0267188f595b8958b  x86_64-linux-gnu/zlib/zlib-1.2.11-05442fb07db.tar.gz
     e1482c9e6c3805376872b5877bbe66ce4c54bf973c20b289f4ba4d93eca9f1c8  x86_64-linux-gnu/zlib/zlib-1.2.11-05442fb07db.tar.gz.hash
-- release: v1.14.3-linux
+- release: 1.14.3-linux
 - name: dogecoin-linux-1.14
 - type: build
 - optionals: 
