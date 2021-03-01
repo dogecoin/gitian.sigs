@@ -586,7 +586,7 @@
     8132c1aa51ebbfd1608388bcd94e11c4721cffd13332ed702044a18d8b0cfd04  x86_64-w64-mingw32/zeromq/zeromq-4.1.5-065d5ff546d.tar.gz.hash
     e6a01d491eaca4bc2df745d11c760e429eca0fbd886b3f0ea91bc93b7b01d583  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz
     8c1e0b143511982b66bad11f18d5baddb77f9daf4e0497d926d20fe8aaee5f76  x86_64-w64-mingw32/zlib/zlib-1.2.11-8af9cef5598.tar.gz.hash
-- release: v1.14.3-linux
+- release: 1.14.3-linux
 - name: dogecoin-win-1.14
 - type: build
 - optionals: 
