@@ -733,7 +733,7 @@
     398478befe87e1a19e5f605e5f089d99bb55367fb565b9e0b6fe96af18d267ed  x86_64-w64-mingw32/zlib/zlib-1.2.11-d4ed30a8f12.tar.gz.hash
     cd86f3925bd468221429c44040c388f34291fb67175d4090817e261098cc242d  x86_64-w64-mingw32/zlib/zlib-1.2.12-311fc50f8c0.tar.gz
     95eff1da0960b6103171c9a98909eeef9f1b6ff51893649033e0c1d585f5b2cc  x86_64-w64-mingw32/zlib/zlib-1.2.12-311fc50f8c0.tar.gz.hash
-- release: "-win"
+- release: "1.14.6-win"
 - name: dogecoin-win-1.14
 - type: build
 - optionals: 
